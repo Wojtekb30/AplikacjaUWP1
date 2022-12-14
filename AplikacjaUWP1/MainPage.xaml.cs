@@ -26,5 +26,10 @@ namespace AplikacjaUWP1
         {
             this.InitializeComponent();
         }
+
+        private void Przycisk1_Click(object sender, RoutedEventArgs e)
+        {
+            BlokTekstu1.Text = "Hello world!";
+        }
     }
 }
